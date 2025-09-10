@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+*.DS_Store
+*.asv
+.vscode
+__pycache__/
+*.code-workspace
+docs/.jekyll-cache/
+docs/Gemfile.lock

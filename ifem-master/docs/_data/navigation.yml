@@ -1,0 +1,311 @@
+main:
+  - title: "Quick-Start Guide"
+    url: /fem/Poisson/
+  - title: "Community"
+    url: /research/
+  - title: "GitHub"
+    url: https://github.com/lyc102/ifem
+
+# documentation links
+docs:
+  - title: "Tutorial"
+    url: /index
+    children:
+      - title: "Installation"
+        url: /index
+      - title: "Quick-start: Poisson equation"
+        url: /fem/Poisson/
+
+  - title: Mesh Data Structure
+    url: /mesh/
+    children:
+      - title: "Basic data structure"
+        url: /mesh/basic/
+      - title: "Boundary conditions"
+        url: /mesh/bd/
+      - title: "Auxiliary structures"
+        url: /mesh/auxstructure/
+      - title: "Simplicial complex in 2D"
+        url: /mesh/sc/
+      - title: "Simplicial complex in 3D"
+        url: /mesh/sc3/
+
+  - title: Finite Element Methods
+    url: /fem/
+    children:
+      - title: "FEM for Poisson equation"
+        url: /fem/Poisson/
+      - title: "Project: Linear FEM"
+        url: /projects/fem/
+      - title: "FEM Workflow"
+        url: /fem/workflow/
+      - title: "FEM examples"
+        url: /fem/examples/
+
+  - title: Adaptive Finite Element Methods
+    children:
+      - title: "Introduction to AFEM"
+        url: /afem/
+      - title: "Project: AFEM for the heat equation"
+        url: /projects/heat/
+
+  - title: Fast Solvers
+    url: /solver/
+    children:
+      - title: "Introduction to solvers"
+        url: /solver/introduction/
+      - title: "Solvers for Poisson-type equations"
+        url: /solver/mgPoisson/
+
+  - title: Mesh
+    url: /mesh/opt/
+    children:
+      - title: "Demo: Interface Mesh Generator"
+        url: /mesh/interfacemesh2demo/
+      - title: "Interface Mesh Generator"
+        url: /mesh/interfacemeshdoc/
+      - title: "Mesh Smoothing"
+        url: /mesh/opt/
+      - title: "Uniform refinement in 3D"
+        url: /mesh/uniformrefine3/
+      - title: "Bisection in 2D"
+        url: /afem/bisect/
+      - title: "Coarsen in 2D"
+        url: /afem/coarsen/
+
+
+  - title: Data Structure for DoFs
+    url: /dof/
+    children:
+      - title: "DoF on Edges in 2D"
+        url: /dof/dofedge/
+      - title: "DoF on Edges in 3D"
+        url: /dof/dof3edge/
+
+
+  - title: Research and Projects
+    children:
+      - title: "Math 226 Projects"
+        url: /projects/
+      - title: "Community Research"
+        url: /research/
+
+  - title: Develop
+    children:
+      - title: "Development notes"
+        url: /logs/dev/
+      - title: "Site logs"
+        url: /logs/site/
+
+solver:
+  - title: "Back to main"
+    url: /
+  - title: "Fast solvers"
+    url: /solver/
+    children:
+      - title: "Linear solver"
+        url: /solver/linear/
+      - title: "Nonlinear solver"
+        url: /solver/nonlinear/
+      - title: "Solver for Poisson equation"
+        url: /solver/Poisson/
+      - title: "Solver for heat equation"
+        url: /solver/heat/
+
+fem:
+  - title: "Back to main"
+    url: /
+  - title: "Finite Element Methods"
+    children:
+      - title: "Finite Element Methods for Poisson Equation"
+        url: /fem/Poisson/
+      - title: "Projects: Linear Finite Element Methods"
+        url: /projects/fem/
+      - title: "FEM workflow"
+        url: /fem/workflow/
+  - title: "A List of Examples"
+    url: /fem/examples/
+  - title: "Poisson Equation 2D"
+    children:
+      - title: "P1 Linear Element"
+        url: /fem/Poissonfemrate/
+      - title: "P2 Quadratic Element"
+        url: /fem/PoissonP2femrate/
+      - title: "P3 Cubic Element"
+        url: /fem/PoissonP3femrate/
+      - title: "CR Nonconforming Linear Element"
+        url: /fem/PoissonCRfemrate/
+      - title: "WG Weak Galerkin Element"
+        url: /fem/PoissonWGfemrate/
+      - title: "Linear Virtual Element"
+        url: /fem/Poissonvemfemrate/
+  - title: "Poisson Equation 3D"
+    children:
+      - title: "3D P1 Linear Element"
+        url: /fem/Poisson3femrate/
+      - title: "3D P2 Quadratic Element"
+        url: /fem/Poisson3P2femrate/
+      - title: "3D CR Nonconforming Linear Element"
+        url: /fem/Poisson3CRfemrate/
+      - title: "3D WG Weak Galerkin Element"
+        url: /fem/Poisson3WGfemrate/
+      - title: "3D Linear Virtual Element"
+        url: /fem/Poisson3vemfemrate/
+  - title: "Poisson Equation 2D: Mixed Formulation"
+    children:
+      - title: "RT0 Element"
+        url: /fem/PoissonRT0mfemrate/
+      - title: "BDM1 Element"
+        url: /fem/PoissonBDM1mfemrate/
+      - title: "RT1 Element"
+        url: /fem/PoissonRT1mfemrate/
+
+  - title: "Poisson Equation 3D: Mixed Formulation"
+    children:
+      - title: "RT0 Element"
+        url: /fem/Poisson3RT0mfemrate/
+
+  - title: "Stokes Equations 2D"
+    children:
+      - title: "CR-P0 Element"
+        url: /fem/StokesCRP0femrate/
+      - title: "P2-P0 Element"
+        url: /fem/StokesP2P0femrate/
+      - title: "RT0-P0 Element"
+        url: /fem/StokesRT0femrate/
+      - title: "P2-P1 Taylor-Hood Element"
+        url: /fem/StokesP2P1femrate/
+      - title: "isoP2-P0 Element"
+        url: /fem/StokesisoP2P0femrate/
+      - title: "isoP2-P1 Element"
+        url: /fem/StokesisoP2P1femrate/
+      - title: "P1b-P1 Element"
+        url: /fem/StokesP1bP1femrate/
+
+  - title: "Maxwell Equations"
+    children:
+      - title: "Lowest Order Edge Element"
+        url: /fem/Maxwell3ND0femrate/
+      - title: "Linear Edge Element"
+        url: /fem/Maxwell3ND1femrate/
+      - title: "Quadratic Edge Element"
+        url: /fem/Maxwell3ND2femrate/
+
+afem:
+  - title: "Back to main"
+    url: /
+  - title: Adaptive Finite element methods
+    children:
+      - title: "Introduction to AFEM"
+        url: /afem/
+      - title: "Project: AFEM for the heat equation"
+        url: /projects/heat/
+
+mesh:
+  - title: "Back to main"
+    url: /
+  - title: "Basic mesh data structure"
+    children:
+      - title: "Basic mesh data structure"
+        url: /mesh/basic/
+      - title: "Boundary conditions"
+        url: /mesh/bd/
+      - title: "Auxiliary mesh data structures"
+        url: /mesh/auxstructure/
+      - title: "Simplicial complex in two dimensions"
+        url: /mesh/sc/
+      - title: "Simplicial complex in three dimensions"
+        url: /mesh/sc3/
+  - title: Mesh
+    children:
+      - title: "Demo: Interface Mesh Generator"
+        url: /mesh/interfacemesh2demo/
+      - title: "Interface Mesh Generator"
+        url: /mesh/interfacemeshdoc/
+      - title: "Mesh Smoothing"
+        url: /mesh/opt/
+      - title: "Uniform refinement in 3D"
+        url: /mesh/uniformrefine3/
+      - title: "Bisection in 2D"
+        url: /afem/bisect/
+      - title: "Coarsen in 2D"
+        url: /afem/coarsen/
+
+
+dof:
+  - title: "Back to main"
+    url: /
+  - title: "2D element"
+    children:
+      - title: "DoF on Edges in 2D"
+        url: /dof/dofedge/
+  - title: "3D element"
+    children:
+      - title: "DoF on Edges in 3D"
+        url: /dof/dof3edge/
+  - title: "Basic mesh data structure"
+    children:
+      - title: "Basic mesh data structure"
+        url: /mesh/basic/
+      - title: "Boundary conditions"
+        url: /mesh/bd/
+      - title: "Auxiliary mesh data structures"
+        url: /mesh/auxstructure/
+      - title: "Simplicial complex in two dimensions"
+        url: /mesh/sc/
+      - title: "Simplicial complex in three dimensions"
+        url: /mesh/sc3/
+
+# sidebar navigation list sample
+project:
+  - title: "Back to main"
+    url: /
+  - title: "Finite Element Projects"
+    children:
+      - title: "Linear Finite Element Method"
+        url: /projects/fem/
+      - title: "Nonlinear Poisson Boltzmann Equation"
+        url: /projects/PBE/
+      - title: "Finite Element Methods for Stokes equations"
+        url: /projects/Stokes/
+      - title: "Transient Navier-Stokes Equations"
+        url: /projects/NavierStokes/
+      - title: "Edge element for Maxwell Equations"
+        url: /projects/Maxwell/
+      - title: "Wave equations"
+        url: /projects/wave/
+  - title: "Adaptive Finite Element"
+    children:
+      - title: "Adaptive FEM for PBE"
+        url: /projects/PBEafem/
+      - title: "Adaptive FEM for Heat Equation"
+        url: /projects/heat/
+  - title: "Solvers"
+    children:
+      - title: "Multigrid Methods"
+        url: /projects/multigrid/
+      - title: "Fast Solvers for Stokes equations"
+        url: /projects/StokesSolver/
+  - title: "Misc"
+    children:
+      - title: "Finite Difference Methods in 1-D"
+        url: /projects/FDM1d/
+      - title: "Finite Difference Methods"
+        url: /projects/fdm/
+      - title: "Fast Multipole Methods"
+        url: /projects/fmm/
+      - title: "MAC Scheme for Stokes equations"
+        url: /projects/StokesMAC/
+  - title: "Community Research"
+    url: /research/
+
+research:
+  - title: "Back to main"
+    url: /
+  - title: "Math 226 Projects"
+    url: /docs/projects/
+  - title: "Community Research"
+    url: /research/
+    children:
+      - title: "Template"
+        url: /research/template/
